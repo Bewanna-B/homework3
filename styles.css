@@ -69,22 +69,22 @@ h1 {
 .container {
     margin-top: 16px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
 }
 
 .container .list1,
 .list2 {
     background-color: white;
-    min-width: 430px;
+    min-width: 500px;
     min-height: 220px;
     border-radius: 16px;
     border: 1px solid;
     margin-bottom: 24px;
-    padding-left: 16px;
+    padding-left: 24px;
     padding-right: 40px;
     display: flex;
-    gap: 24px;
+    gap: 36px;
     /* justify-content: space-around; */
     align-items: center;
 }
@@ -139,11 +139,11 @@ h1 {
 
 .container .orderinfo {
     background-color: white;
-    min-width: 400px;
+    min-width: 470px;
     min-height: 250px;
     border-radius: 8px;
     border: 1px solid;
-    padding: 20px;
+    padding: 30px 50px;
 }
 
 .subtotal {
